@@ -1,0 +1,2 @@
+rendering-footer
+renderFooterOn: html

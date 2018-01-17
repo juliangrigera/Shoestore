@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulianGrigera 1/17/2018 16:57",
+	"super" : "WAFileLibrary",
+	"category" : "Shoestore-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ShoestoreFileLibrary",
+	"type" : "normal"
+}
