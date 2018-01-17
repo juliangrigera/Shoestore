@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulianGrigera 1/17/2018 13:07",
+	"super" : "Object",
+	"category" : "Shoestore-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ShoestoreScriptsRunner",
+	"type" : "normal"
+}
