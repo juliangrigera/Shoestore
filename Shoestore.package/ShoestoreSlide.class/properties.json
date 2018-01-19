@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "JulianGrigera 1/20/2018 00:25",
+	"super" : "Object",
+	"category" : "Shoestore-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"description",
+		"url"
+	],
+	"name" : "ShoestoreSlide",
+	"type" : "normal"
+}
