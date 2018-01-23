@@ -1,0 +1,3 @@
+*Shoestore
+systemIconName
+	^ #wa

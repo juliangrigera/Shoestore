@@ -6,7 +6,7 @@ renderSearchOn: html
 				class: 'search-box';
 				with: [ html
 						form: [ html textInput value: 'Search...'.
-							html submitButton ] ].
+							html submitButton: '' ] ].
 			html div
 				class: 'cart-box';
 				with: [ html

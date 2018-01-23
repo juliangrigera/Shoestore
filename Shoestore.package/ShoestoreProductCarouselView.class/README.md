@@ -1,0 +1,1 @@
+I display a product, inside an Owl carousel

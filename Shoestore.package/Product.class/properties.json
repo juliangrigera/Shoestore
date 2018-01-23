@@ -8,7 +8,8 @@
 	"instvars" : [
 		"name",
 		"price",
-		"discount"
+		"discount",
+		"imageUrl"
 	],
 	"name" : "Product",
 	"type" : "normal"

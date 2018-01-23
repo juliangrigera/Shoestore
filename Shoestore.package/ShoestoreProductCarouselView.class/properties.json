@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "JulianGrigera 1/23/2018 16:18",
-	"super" : "ShoestoreView",
+	"commentStamp" : "JulianGrigera 1/23/2018 13:32",
+	"super" : "WAComponent",
 	"category" : "Shoestore-Web-Frontend",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"products"
+		"product"
 	],
-	"name" : "ShoestoreCollectionsView",
+	"name" : "ShoestoreProductCarouselView",
 	"type" : "normal"
 }
