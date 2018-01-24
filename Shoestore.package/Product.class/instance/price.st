@@ -1,3 +1,3 @@
 accessing
 price
-	^ price
+	^ self fullPrice - (self fullPrice * self discount)

@@ -1,3 +1,3 @@
 accessing
-price: anObject
-	price := anObject
+price: aFloat
+	price := aFloat

@@ -1,6 +1,6 @@
 rendering
 renderProductPicOn: html
-	^ html div
+	html div
 		class: 'product-pic'
 		with: [ html image
 				url: self product imageUrl;

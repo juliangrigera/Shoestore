@@ -1,18 +1,14 @@
 {
-	"commentStamp" : "JulianGrigera 1/17/2018 13:05",
+	"commentStamp" : "JulianGrigera 1/24/2018 14:44",
 	"super" : "Object",
 	"category" : "Shoestore-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"price",
-		"discount",
-		"description",
-		"imageUrl",
-		"images"
+		"thumbnailUrl",
+		"url"
 	],
-	"name" : "Product",
+	"name" : "ProductImage",
 	"type" : "normal"
 }

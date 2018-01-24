@@ -1,4 +1,5 @@
 accessing
 children
 	^ {homeView.
-	collectionsView}
+	collectionsView.
+	productView}
