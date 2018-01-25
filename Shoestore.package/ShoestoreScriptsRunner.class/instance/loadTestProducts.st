@@ -18,6 +18,7 @@ loadTestProducts
 			(ProductImage
 				url: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/700/product00031.jpg'
 				thumbnailUrl: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/300/product00031.jpg');
+		discount: 20 percent;
 		save.
 	(Product
 		name: 'ECCO Men''s Vitrus'
@@ -56,6 +57,7 @@ loadTestProducts
 			(ProductImage
 				url: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/700/product00025.jpg'
 				thumbnailUrl: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/300/product00025.jpg');
+		discount: 30 percent;
 		save.
 	(Product
 		name: 'Gore Slipper - Navy Knit'
@@ -94,6 +96,7 @@ loadTestProducts
 			(ProductImage
 				url: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/700/product00023.jpg'
 				thumbnailUrl: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/300/product00023.jpg');
+		discount: 20 percent;
 		save.
 	(Product
 		name: 'Un.Nature Time - Black'
@@ -113,6 +116,7 @@ loadTestProducts
 			(ProductImage
 				url: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/700/product00020.jpg'
 				thumbnailUrl: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/300/product00020.jpg');
+		discount: 20 percent;
 		save.
 	(Product
 		name: 'Women''s Addington Chelsea Leather Boot - Tobacco'

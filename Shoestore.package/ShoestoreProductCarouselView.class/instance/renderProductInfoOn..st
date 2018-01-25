@@ -10,7 +10,7 @@ renderProductInfoOn: html
 				class: 'product-pic-info-price-cart'
 				with: [ html div
 						class: 'product-pic-info-price'
-						with: [ html span: self product price.
+						with: [ html span: self product price arsCurrency.
 							self product hasDiscount
 								ifTrue: [ html label ] ].
 					html div
