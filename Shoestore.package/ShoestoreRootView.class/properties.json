@@ -9,7 +9,9 @@
 		"view",
 		"homeView",
 		"collectionsView",
-		"productView"
+		"productView",
+		"query",
+		"searchResultsView"
 	],
 	"name" : "ShoestoreRootView",
 	"type" : "normal"

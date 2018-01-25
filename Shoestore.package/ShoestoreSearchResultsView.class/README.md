@@ -1,0 +1,1 @@
+I render search results. Nothing special.

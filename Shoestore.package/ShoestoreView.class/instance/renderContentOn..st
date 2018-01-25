@@ -1,3 +1,3 @@
 rendering
 renderContentOn: html
-	html text: 'Collections'
+	self subclassResponsibility

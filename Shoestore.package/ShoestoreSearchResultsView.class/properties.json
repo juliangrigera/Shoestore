@@ -1,14 +1,13 @@
 {
-	"commentStamp" : "JulianGrigera 1/23/2018 20:27",
+	"commentStamp" : "JulianGrigera 1/25/2018 12:30",
 	"super" : "ShoestoreView",
 	"category" : "Shoestore-Web-Frontend",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"product",
-		"quantity"
+		"products"
 	],
-	"name" : "ShoestoreProductView",
+	"name" : "ShoestoreSearchResultsView",
 	"type" : "normal"
 }

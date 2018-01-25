@@ -1,5 +1,6 @@
 utilities-database
 loadTestProducts
+	Product removeAll.
 	(Product
 		name: 'Merrell Men''s Mother of All Boots'
 		price: 1999.99
@@ -179,7 +180,8 @@ loadTestProducts
 		name: 'Women''s Calla - Black'
 		price: 2999.99
 		imageUrl: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/300/product00012.jpg')
-		description: 'Turn heads in the office or out on the town when you''re wearing the Calla pump by Beautifeel.';
+		description:
+			'Turn heads in the office or out on the town when you''re wearing the Calla pump by Beautifeel.';
 		addImage:
 			(ProductImage
 				url: 'https://selfrefactoring.s3.amazonaws.com/shoestore/images/products/700/product00012.jpg'
