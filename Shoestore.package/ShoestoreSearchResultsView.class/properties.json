@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"products"
+		"products",
+		"query"
 	],
 	"name" : "ShoestoreSearchResultsView",
 	"type" : "normal"

@@ -4,5 +4,7 @@ renderContentOn: html
 		class: 'bottom-grids';
 		class: #collections;
 		with: [ html
-				tbsContainer: [ html heading: 'Our Collections'.
-					self products do: [ :product | html render: (ShoestoreProductCarouselView product: product) ] ] ]
+				tbsContainer: [ html heading: 'Search Results for "' , self query , '"'.
+					self products
+						ifEmpty: [ self renderNoResultsMessageOn: html ]
+						ifNotEmpty: [ :found | found do: [ :product | html render: (ShoestoreProductCarouselView product: product) ] ] ] ]
