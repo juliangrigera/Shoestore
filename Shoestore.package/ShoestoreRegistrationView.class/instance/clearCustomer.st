@@ -1,4 +1,5 @@
 initialization
 clearCustomer
 	customer := Customer blank.
-	alreadyRejected := false
+	alreadyRejected := false.
+	repeatedPassword := ''

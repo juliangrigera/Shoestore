@@ -9,4 +9,9 @@ style
 }
 
 .text-fild.error input{border-color:red}
+
+.text-fild:nth-child(2) {
+    margin-right: 4%;
+    margin-bottom: 30px;
+}
 '

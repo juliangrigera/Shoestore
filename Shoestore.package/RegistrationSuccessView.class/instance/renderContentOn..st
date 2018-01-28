@@ -1,3 +1,3 @@
 rendering
 renderContentOn: html
-	html heading: 'Registration Successful!'
+	html tbsContainer: [ html heading: 'Registration Successful!' ]

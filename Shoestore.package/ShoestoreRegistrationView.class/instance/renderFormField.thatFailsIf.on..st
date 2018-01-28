@@ -1,7 +1,7 @@
 rendering
-renderFormField: aField thatFailsIf: aBooleanBlock on: html
-	html div
-		class: 'text-fild';
-		class: #error if: self alreadyRejected & aBooleanBlock value;
-		with: [ html span: aField capitalized.
-			html textInput on: aField of: self customer ]
+renderFormField: aField thatFailsIf: aBoolean on: html
+	self
+		renderFormField: aField
+		for: self customer
+		thatFailsIf: aBoolean
+		on: html
