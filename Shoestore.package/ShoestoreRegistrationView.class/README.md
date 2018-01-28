@@ -1,0 +1,1 @@
+Form for registering new customers

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "JulianGrigera 1/28/2018 15:09",
+	"super" : "Object",
+	"category" : "Shoestore-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"email",
+		"phone",
+		"password"
+	],
+	"name" : "Customer",
+	"type" : "normal"
+}

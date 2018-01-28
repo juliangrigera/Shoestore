@@ -3,4 +3,5 @@ children
 	^ {homeView.
 	collectionsView.
 	productView.
-	searchResultsView}
+	searchResultsView.
+	registrationView}

@@ -12,7 +12,7 @@ renderTopHeaderOn: html
 												url: '#';
 												with: 'Login' ];
 										listItem: [ html anchor
-												url: '#';
+												callback: [ self showViewCalled: #Register ];
 												with: 'SignUp' ];
 										clearfix ] ].
 					html clearfix ] ]

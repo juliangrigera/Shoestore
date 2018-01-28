@@ -11,7 +11,8 @@
 		"collectionsView",
 		"productView",
 		"query",
-		"searchResultsView"
+		"searchResultsView",
+		"registrationView"
 	],
 	"name" : "ShoestoreRootView",
 	"type" : "normal"
