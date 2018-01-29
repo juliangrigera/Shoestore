@@ -1,3 +1,3 @@
 testing
-cusomerIsLogged
+customerIsLogged
 	^ self customer isNotNil

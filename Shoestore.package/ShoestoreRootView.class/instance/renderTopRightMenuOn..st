@@ -3,8 +3,8 @@ renderTopRightMenuOn: html
 	html
 		unorderedList: [ html
 				listItem: [ html anchor
-						url: '#';
-						with: 'My Account' ];
+						callback: [ self showViewCalled: #Cart ];
+						with: 'Shopping Cart (' , self session cart productsNumber greaseString , ' products)' ];
 				listItem: [ html anchor
 						url: '#';
 						with: 'Checkout' ] ]

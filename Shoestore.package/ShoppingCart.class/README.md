@@ -1,0 +1,1 @@
+I keep the products Customers want to buy  and calculate the aggregated price.

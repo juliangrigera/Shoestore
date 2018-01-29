@@ -7,7 +7,7 @@ renderTopHeaderOn: html
 				with: [ html div
 						class: 'rigister-info';
 						with: [ html
-								unorderedList: [ self session cusomerIsLogged
+								unorderedList: [ self session customerIsLogged
 										ifTrue: [ self renderCustomerInfoOn: html ]
 										ifFalse: [ self renderLoginFormOn: html ].
 									html

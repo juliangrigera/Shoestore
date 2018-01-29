@@ -1,3 +1,4 @@
 accessing
 logout
-	customer := nil
+	customer := nil.
+	cart := ShoppingCart new

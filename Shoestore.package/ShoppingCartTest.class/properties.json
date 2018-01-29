@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Shoestore-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cart",
+		"boots",
+		"shoes"
+	],
+	"name" : "ShoppingCartTest",
+	"type" : "normal"
+}

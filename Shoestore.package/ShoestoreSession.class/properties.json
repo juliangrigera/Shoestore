@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"customer",
-		"announcer"
+		"announcer",
+		"cart"
 	],
 	"name" : "ShoestoreSession",
 	"type" : "normal"
