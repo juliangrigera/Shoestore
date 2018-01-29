@@ -1,13 +1,10 @@
 rendering-header
 renderTopRightMenuOn: html
-	^ html
+	html
 		unorderedList: [ html
 				listItem: [ html anchor
 						url: '#';
 						with: 'My Account' ];
-				listItem: [ html anchor
-						url: '#';
-						with: 'Whishlist' ];
 				listItem: [ html anchor
 						url: '#';
 						with: 'Checkout' ] ]

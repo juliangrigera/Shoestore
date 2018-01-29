@@ -38,13 +38,17 @@ body a{
 .rigister-info ul li{
 	display:inline-block;
 }
-.rigister-info ul li a{
+.rigister-info ul li input { 
+   font-size: .9em;
+ }
+.rigister-info ul li a, .rigister-info ul li input.submit{
 	background:#f1e1ce;
 	color:#4f4844;
 	text-transform:uppercase;
 	padding: 0.3em 1.2em;
 	text-decoration:none;
 	font-size:0.875em;
+	border:1px solid;
 }
 /*-- bottom-header --*/
 .bottom-header-left{

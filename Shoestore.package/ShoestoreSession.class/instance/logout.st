@@ -1,0 +1,3 @@
+accessing
+logout
+	customer := nil

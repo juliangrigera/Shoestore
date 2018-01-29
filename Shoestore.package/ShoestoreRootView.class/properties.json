@@ -12,7 +12,9 @@
 		"productView",
 		"query",
 		"searchResultsView",
-		"registrationView"
+		"registrationView",
+		"email",
+		"password"
 	],
 	"name" : "ShoestoreRootView",
 	"type" : "normal"
