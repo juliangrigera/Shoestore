@@ -4,4 +4,5 @@ children
 	collectionsView.
 	productView.
 	searchResultsView.
-	registrationView}
+	registrationView.
+	shoppingCartView}

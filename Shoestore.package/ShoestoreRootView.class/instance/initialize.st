@@ -6,8 +6,7 @@ initialize
 	productView := ShoestoreProductView new.
 	searchResultsView := ShoestoreSearchResultsView new.
 	registrationView := ShoestoreRegistrationView new.
+	shoppingCartView := ShoppingCartView new.
 	view := homeView.
 	query := ''.
-	self session announcer
-		when: CallView
-		do: [ :announcement | self view: announcement view ]
+	self session announcer when: CallView do: [ :announcement | self view: announcement view ]
