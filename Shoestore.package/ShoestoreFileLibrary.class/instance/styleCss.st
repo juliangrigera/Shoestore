@@ -865,12 +865,26 @@ a.b-home:hover{
 	font-family: "Lora", serif;
 	border: 1px solid #DAD8D8;
 }
+
+.text-fild.error input{border-color:red}
+
 .msg-fild{
 	padding:1em 0;
 }
 .text-fild:nth-child(2){
 	margin:0;
 }
+.card .text-fild{
+	margin:0 0 30px 0;
+	float:left;
+	width:40%;
+}
+.card select {
+    font-size: 1em;
+    border: 1px solid rgb(223, 223, 223);
+    background: white;
+}
+
 .message-fild textarea{
 	min-height:250px;
 	resize:none;

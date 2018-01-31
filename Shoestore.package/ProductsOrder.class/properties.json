@@ -9,7 +9,12 @@
 		"products",
 		"streetAddress",
 		"city",
-		"country"
+		"country",
+		"cardHolderName",
+		"cardNumber",
+		"cardCVV",
+		"expirationMonth",
+		"expirationYear"
 	],
 	"name" : "ProductsOrder",
 	"type" : "normal"

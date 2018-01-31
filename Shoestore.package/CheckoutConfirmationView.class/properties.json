@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulianGrigera 1/31/2018 15:13",
+	"super" : "CheckoutView",
+	"category" : "Shoestore-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CheckoutConfirmationView",
+	"type" : "normal"
+}

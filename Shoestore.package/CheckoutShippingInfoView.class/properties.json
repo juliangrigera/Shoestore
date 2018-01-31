@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "JulianGrigera 1/31/2018 10:07",
-	"super" : "WAComponent",
+	"super" : "CheckoutView",
 	"category" : "Shoestore-Web-Frontend",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"order",
-		"alreadyRejected"
-	],
+	"instvars" : [ ],
 	"name" : "CheckoutShippingInfoView",
 	"type" : "normal"
 }

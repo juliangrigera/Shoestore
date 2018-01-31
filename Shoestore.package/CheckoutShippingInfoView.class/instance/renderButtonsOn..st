@@ -4,4 +4,4 @@ renderButtonsOn: html
 		paragraph: [ html submitButton
 				callback: [ self submit ];
 				class: 'submit-button';
-				with: 'Next Step' ]
+				with: 'Next Step >>' ]

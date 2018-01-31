@@ -1,3 +1,5 @@
 controlling
 submit
-	self answer
+	self isValid
+		ifTrue: [ self answer: order ]
+		ifFalse: [ self reject ]

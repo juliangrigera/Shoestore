@@ -1,0 +1,1 @@
+Frame for all Checkout steps views

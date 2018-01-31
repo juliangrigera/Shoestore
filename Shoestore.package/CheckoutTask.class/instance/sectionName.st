@@ -1,3 +1,3 @@
 accessing
 sectionName
-	^'Checkout'
+	^ 'Checkout'

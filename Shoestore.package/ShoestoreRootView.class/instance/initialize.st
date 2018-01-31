@@ -10,4 +10,7 @@ initialize
 	checkoutTask := CheckoutTask new.
 	view := homeView.
 	query := ''.
-	self session announcer when: CallView do: [ :announcement | self view: announcement view ]
+	self session announcer when: CallView do: [ :announcement | self view: announcement view ].
+	self session announcer
+		when: CallViewByName
+		do: [ :announcement | self view: (self sectionCalled: announcement viewName) ]

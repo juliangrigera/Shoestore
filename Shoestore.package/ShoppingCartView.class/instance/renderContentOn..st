@@ -13,4 +13,8 @@ renderContentOn: html
 								paragraph: [ html span: 'Total: '.
 									html heading level3 with: self session cart total arsCurrency ] ]
 							mediumSize: 3;
-						tbsColumn: [  ] mediumSize: 2 ] ]
+						tbsColumn: [  ] mediumSize: 2 ].
+			html anchor
+				class: #submit;
+				callback: [ self session navigateToSectionNamed: 'Checkout' ];
+				with: 'Proceed to Checkout >>' ]

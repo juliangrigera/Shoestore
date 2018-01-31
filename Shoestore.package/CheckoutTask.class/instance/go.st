@@ -1,3 +1,11 @@
 running
 go
-	self call: CheckoutShippingInfoView new
+	| order |
+	order := ProductsOrder fromCart: self session cart.
+	shipping order: order.
+	payment order: order.
+	confirm order: order.
+	self
+		call: shipping;
+		call: payment;
+		call: confirm

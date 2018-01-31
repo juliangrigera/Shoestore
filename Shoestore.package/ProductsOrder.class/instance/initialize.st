@@ -4,4 +4,9 @@ initialize
 	city := ''.
 	country := ''.
 	products := OrderedCollection new.
-	streetAddress := ''
+	streetAddress := ''.
+	cardCVV := ''.
+	cardNumber := ''.
+	expirationMonth := ''.
+	expirationYear := ''.
+	cardHolderName := ''

@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"shipping",
+		"payment",
+		"confirm"
+	],
 	"name" : "CheckoutTask",
 	"type" : "normal"
 }
