@@ -1,0 +1,1 @@
+First step of checkout: input your shipping address.

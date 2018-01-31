@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulianGrigera 1/31/2018 09:41",
+	"super" : "WATask",
+	"category" : "Shoestore-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CheckoutTask",
+	"type" : "normal"
+}

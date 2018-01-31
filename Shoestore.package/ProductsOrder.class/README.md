@@ -1,0 +1,1 @@
+An order of products, including shipping and payment info.

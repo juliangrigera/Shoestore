@@ -875,7 +875,7 @@ a.b-home:hover{
 	min-height:250px;
 	resize:none;
 }
-.contact-bottom-grid-right input[type="submit"]{
+.contact-bottom-grid-right input[type="submit"], .submit-button{
 	background: #4f4844;
 	padding: 0.7em 1.5em;
 	display: inline-block;

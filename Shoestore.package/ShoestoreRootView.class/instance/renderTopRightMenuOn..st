@@ -6,5 +6,5 @@ renderTopRightMenuOn: html
 						callback: [ self showViewCalled: #Cart ];
 						with: 'Shopping Cart (' , self session cart productsNumber greaseString , ' products)' ];
 				listItem: [ html anchor
-						url: '#';
+						callback: [ self view: checkoutTask ];
 						with: 'Checkout' ] ]

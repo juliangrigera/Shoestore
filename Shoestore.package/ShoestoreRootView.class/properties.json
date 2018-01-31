@@ -15,7 +15,8 @@
 		"registrationView",
 		"email",
 		"password",
-		"shoppingCartView"
+		"shoppingCartView",
+		"checkoutTask"
 	],
 	"name" : "ShoestoreRootView",
 	"type" : "normal"
