@@ -1,12 +1,4 @@
 rendering-header
 renderSearchOn: html
-	html div
-		class: 'search-cart';
-		with: [ html div
-				class: 'search-box';
-				with: [ html
-						form: [ html textInput on: #query of: self.
-							html submitButton
-								callback: [ self searchProducts ];
-								with: '' ] ].
-			html clearfix ]
+	self perform: self session versionManager hardToFindSelector with: html.
+	self perform: self session versionManager badSearchSelector with: html

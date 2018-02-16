@@ -8,7 +8,8 @@
 	"instvars" : [
 		"customer",
 		"announcer",
-		"cart"
+		"cart",
+		"versionManager"
 	],
 	"name" : "ShoestoreSession",
 	"type" : "normal"

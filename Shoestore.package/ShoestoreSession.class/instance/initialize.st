@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	cart := ShoppingCart new
+	cart := ShoppingCart new.
+	versionManager := GUIVersionManager new

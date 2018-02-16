@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "JulianGrigera 6/26/2017 17:24",
+	"super" : "Object",
+	"category" : "Shoestore-Web-Frontend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Default"
+	],
+	"instvars" : [
+		"version",
+		"versionTable"
+	],
+	"name" : "GUIVersionManager",
+	"type" : "normal"
+}

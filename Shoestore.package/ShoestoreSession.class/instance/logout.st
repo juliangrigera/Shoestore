@@ -1,4 +1,4 @@
-accessing
+login - logout
 logout
 	customer := nil.
 	self cleanCart

@@ -3,6 +3,7 @@ initialize
 	(WAAdmin register: self asApplicationAt: 'shoestore')
 		addLibrary: JQDeploymentLibrary;
 		addLibrary: JQUiDeploymentLibrary;
+		addLibrary: JQUiLightnessTheme;
 		addLibrary: TBSDeploymentLibrary;
 		addLibrary: TBSJasnyDeploymentLibrary;
 		addLibrary: ShoestoreFileLibrary;
