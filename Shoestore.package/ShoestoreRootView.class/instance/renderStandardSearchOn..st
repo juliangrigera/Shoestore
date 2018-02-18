@@ -12,5 +12,6 @@ renderStandardSearchOn: html
 								on: #query of: self.
 							html submitButton
 								callback: [ self searchProducts ];
+								style: 'display:none';
 								with: '' ] ].
 			html clearfix ]

@@ -8,6 +8,7 @@ initialize
 	registrationView := ShoestoreRegistrationView new.
 	shoppingCartView := ShoppingCartView new.
 	checkoutTask := CheckoutTask new.
+	sizesView := SizesView new.
 	view := homeView.
 	query := ''.
 	self session announcer when: CallView do: [ :announcement | self view: announcement view ].

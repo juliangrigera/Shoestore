@@ -1,0 +1,1 @@
+Simple view to show shoes sizes' chart

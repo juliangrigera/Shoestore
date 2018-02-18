@@ -1931,4 +1931,11 @@ ul.prosuct-qty{
 		font-size: 0.875em;
 		padding:0.3em 0;
 	}
-}'
+}
+
+span.sizes{
+	font-size:.8em;
+	margin:0 10px;
+	color:gray;
+	}
+'

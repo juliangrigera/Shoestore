@@ -6,4 +6,5 @@ children
 	searchResultsView.
 	registrationView.
 	shoppingCartView.
-	checkoutTask }
+	checkoutTask.
+	sizesView}
