@@ -1,7 +1,8 @@
-rendering
-renderContentOn: html
-	html
-		tbsContainer: [ html heading: 'Shoes Sizes Conversion Table'.
+rendering-versions
+sizesPopoverCode
+	| htmlCode |
+	htmlCode := WAHtmlCanvas builder
+		render: [ :html | 
 			html table
 				class: #table;
 				with: [ html
@@ -13,4 +14,5 @@ renderContentOn: html
 							html
 								tableRow: [ html
 										tableData: row first;
-										tableData: row second ] ] ] ]
+										tableData: row second ] ] ] ].
+	^ htmlCode
