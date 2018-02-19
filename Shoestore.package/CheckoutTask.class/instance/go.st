@@ -5,7 +5,7 @@ go
 	shipping order: order.
 	payment order: order.
 	confirm order: order.
-	self
+	[ self
 		call: shipping;
 		call: payment;
-		call: confirm
+		call: confirm ] doWhileTrue: true

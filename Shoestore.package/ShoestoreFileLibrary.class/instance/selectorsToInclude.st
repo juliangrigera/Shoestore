@@ -1,3 +1,3 @@
 accessing
 selectorsToInclude
-	^ #(#styleCss #responsiveslidesJs)
+	^ #(#styleCss #responsiveslidesJs #tasksTrackerJs)
