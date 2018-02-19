@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isValid
 	^ self order shippingInfoIsValid

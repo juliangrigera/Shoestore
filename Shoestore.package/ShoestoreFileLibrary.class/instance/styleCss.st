@@ -866,7 +866,7 @@ a.b-home:hover{
 	border: 1px solid #DAD8D8;
 }
 
-.text-fild.error input{border-color:red}
+.text-fild.error input{border-color:red; background:#FDD}
 
 .msg-fild{
 	padding:1em 0;

@@ -6,4 +6,5 @@ renderStreetInputOn: html
 		with: [ html span: 'Street Address'.
 			html textInput
 				placeholder: '123 Doe Bv.';
+				id: #coStreet;
 				on: #streetAddress of: self order ]

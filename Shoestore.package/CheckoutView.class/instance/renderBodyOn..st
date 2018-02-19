@@ -1,5 +1,7 @@
 rendering
 renderBodyOn: html
-	html
-		form: [ self renderFieldsOn: html.
-			self renderButtonsOn: html ]
+	html form
+		id: #coForm;
+		with: [ self renderFieldsOn: html.
+			self renderButtonsOn: html ].
+	self perform: self session versionManager lateValidationSelector with: html

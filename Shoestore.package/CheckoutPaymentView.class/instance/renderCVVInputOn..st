@@ -6,5 +6,6 @@ renderCVVInputOn: html
 		class: #error if: self alreadyRejected & self cvvIsInvalid;
 		with: [ html span: 'CVV'.
 			html passwordInput
-				placeholder: 'XXX';
+				id: #coCVV;
+				placeholder: '***';
 				on: #cardCVV of: self order ]
