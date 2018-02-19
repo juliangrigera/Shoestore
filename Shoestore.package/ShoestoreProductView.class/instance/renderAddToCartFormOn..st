@@ -10,8 +10,7 @@ renderAddToCartFormOn: html
 				with: [ {5 . 5.5 . 6 . 6.5 . 7 . 7.5 . 8 . 8.5 . 9 . 9.5 . 10} do: [ :eachEmp | html option: eachEmp ] ].
 			html unorderedList
 				class: 'prosuct-qty'
-				with: [ html span: 'Quantity'.
-					html textInput on: #quantity of: self ].
+				with: [ self perform: self session versionManager unformattedInputSelector with: html ].
 			html submitButton
 				callback: [ self addToCart ];
 				value: 'add to cart' ]

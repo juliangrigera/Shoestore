@@ -1938,4 +1938,12 @@ span.sizes{
 	margin:0 10px;
 	color:gray;
 	}
+.submit-button{
+	margin:20px 0 40px 60%
+	}
+.counter{
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 6px;
+	}
 '
