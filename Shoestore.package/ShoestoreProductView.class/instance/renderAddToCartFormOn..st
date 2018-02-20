@@ -13,4 +13,7 @@ renderAddToCartFormOn: html
 				with: [ self perform: self session versionManager unformattedInputSelector with: html ].
 			html submitButton
 				callback: [ self addToCart ];
-				value: 'add to cart' ]
+				value: 'add to cart' ].
+	html anchor
+		callback: [ self session navigateToSectionNamed: #Sizes ];
+		with: [html small: 'Shoes Sizes conversion table']

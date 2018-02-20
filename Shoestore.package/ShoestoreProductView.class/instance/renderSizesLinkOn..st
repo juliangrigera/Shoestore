@@ -5,4 +5,4 @@ renderSizesLinkOn: html
 		class: 'sizes';
 		with: [ html anchor
 				callback: [ self session navigateToSectionNamed: #Sizes ];
-				with: 'US Sizes' ]
+				with: 'Shoe Sizes are in US scale' ]

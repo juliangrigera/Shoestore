@@ -3,4 +3,4 @@ renderSizesLabelOn: html
 	html space.
 	html span
 		class: 'sizes';
-		with: 'US Sizes'
+		with:  'Shoe Sizes are in US scale'
