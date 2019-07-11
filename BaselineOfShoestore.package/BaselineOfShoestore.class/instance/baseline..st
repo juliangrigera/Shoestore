@@ -7,5 +7,5 @@ baseline: spec
 				seaside: spec;
 				bootstrap: spec;
 				voyage: spec.
-			spec package: 'Flooring' with: [ spec requires: #('Seaside3' 'Voyage' 'Bootstrap') ].
+			spec package: 'Shoestore' with: [ spec requires: #('Seaside3' 'Voyage' 'Bootstrap') ].
 			spec postLoadDoIt: #postLoadActions ]
